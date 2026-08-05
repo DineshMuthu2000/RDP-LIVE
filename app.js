@@ -23,6 +23,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 // Health Check Endpoint
+app.get("/", (req, res) => { res.send("RDP Manager Backend is running"); });
 app.get('/api/health', (req, res) => {
   res.status(200).json({
     status: 'OK',

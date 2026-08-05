@@ -1,0 +1,21 @@
+{
+  "name": "rdp-manager-suite",
+  "version": "1.0.0",
+  "description": "Windows PowerShell RDP Manager with Node.js Express SQLite Backend & React Vite Admin Dashboard",
+  "private": true,
+  "scripts": {
+    "start:backend": "cd backend && npm start",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:dashboard": "cd dashboard && npm run dev",
+    "build:dashboard": "cd dashboard && npm run build"
+  },
+  "keywords": [
+    "rdp",
+    "powershell",
+    "express",
+    "sqlite",
+    "react",
+    "vite",
+    "license-management"
+  ]
+}
